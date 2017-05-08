@@ -19,7 +19,7 @@ setup_args = {
                    ' distances. Under the hood, a C extension module is'
                    ' preferentially used for optimal performance, with an'
                    ' automatic fallback to a Python implementation.',
-    'url': '',
+    'url': 'https://github.com/obulkin/string-dist',
     'author': 'Oleg Bulkin',
     'author_email': 'o.bulkin@gmail.com',
     'license': 'MIT',
@@ -27,7 +27,6 @@ setup_args = {
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Natural Language :: English',
         'Programming Language :: C',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.6.1',
