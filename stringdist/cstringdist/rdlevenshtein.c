@@ -1,3 +1,6 @@
+// Copyright (c) 2017 Oleg Bulkin
+// MIT License (https://opensource.org/licenses/MIT)
+
 // Signal to the Python API that the string lengths returned below should be of
 // type Py_ssize_t intead of int. This is recommended in the docs
 #define PY_SSIZE_T_CLEAN 

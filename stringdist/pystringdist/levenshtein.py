@@ -1,3 +1,6 @@
+# Copyright (c) 2017 Oleg Bulkin
+# MIT License (https://opensource.org/licenses/MIT)
+
 # Import shared helper
 from .levenshtein_shared import _levenshtein_compute
 

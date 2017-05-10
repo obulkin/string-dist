@@ -1,3 +1,7 @@
+# Copyright (c) 2017 Oleg Bulkin
+# MIT License (https://opensource.org/licenses/MIT)
+
+
 def _levenshtein_compute(source, target, rd_flag):
     """Computes the Levenshtein
     (https://en.wikipedia.org/wiki/Levenshtein_distance)

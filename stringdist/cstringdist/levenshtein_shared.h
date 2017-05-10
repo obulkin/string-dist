@@ -1,3 +1,6 @@
+// Copyright (c) 2017 Oleg Bulkin
+// MIT License (https://opensource.org/licenses/MIT)
+
 // Needed prototype
 int levenshtein_compute(
     Py_UNICODE *source,

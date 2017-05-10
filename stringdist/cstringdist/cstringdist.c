@@ -1,3 +1,6 @@
+// Copyright (c) 2017 Oleg Bulkin
+// MIT License (https://opensource.org/licenses/MIT)
+
 // Include necessary headers
 #include <Python.h>
 #include "levenshtein.h"

@@ -1,8 +1,7 @@
-# Ignore files produced when package is built/installed during development
+# Ignore files created during dev and testing
 build/
 dist/
 *.egg-info/
-*.egg
 __pycache__/
 
 # Ignore pyenv config file

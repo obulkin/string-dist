@@ -1,3 +1,6 @@
+# Copyright (c) 2017 Oleg Bulkin
+# MIT License (https://opensource.org/licenses/MIT)
+
 # Import methods being tested and base class provided by unittest
 from stringdist import levenshtein, levenshtein_norm
 from unittest import TestCase

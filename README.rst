@@ -38,15 +38,16 @@ The available functions are as follows:
 * ``rdlevenshtein``
 * ``rdlevenshtein_norm``
 
-Raw distances assume that every allowed operation has a cost of 1. Normalized 
-distances are floats in the range [0.0, 1.0], where 0.0 always corresponds to 
-a raw value of 0 and 1.0 always corresponds to the length of the longer 
-string, i.e. the biggest possible raw value.
+Raw distances assume that every allowed operation has a cost of ``1``. 
+Normalized distances are floats in the range ``[0.0, 1.0]``, where ``0.0`` 
+always corresponds to a raw value of ``0`` and ``1.0`` always corresponds to 
+the length of the longer string, i.e. the biggest possible raw value.
 
-Roadmap
-=======
-
-* ...
+**Note**: The restricted Damerau-Levenshtein distance is not a true distance 
+metric because it does not satisfy the 
+`triangle inequality <https://en.wikipedia.org/wiki/Triangle_inequality>`_. 
+This makes it a poor choice for applications that involve evaluating the 
+similarity of more than two strings, such as clustering.
 
 Bugs and Requests
 =================
@@ -80,4 +81,3 @@ Contributors
 ============
 
 * Oleg Bulkin <o.bulkin@gmail.com>
-
