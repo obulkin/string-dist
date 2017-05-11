@@ -22,6 +22,8 @@ To install this package, just use pip::
 
     pip install StringDist
 
+All Python versions ``>=3.3`` should be supported.
+
 Usage
 =====
 

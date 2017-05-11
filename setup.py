@@ -26,7 +26,7 @@ cstringdist = Extension(
 # self-explanatory (classifiers are tags used to filter packages on PyPI)
 setup_args = {
     'name': 'StringDist',
-    'version': '1.0.0',
+    'version': '1.0.9',
     'description': 'This package provides the stringdist module, which'
                    ' includes several functions for calculating string'
                    ' distances. Under the hood, a C extension module is'
@@ -51,7 +51,6 @@ setup_args = {
         'Programming Language :: Python :: Implementation :: Stackless',
         'Topic :: Software Development :: Libraries',
     ],
-    'python_requires': '>=3.3',
     'keywords': 'string metric string distance edit distance levenshtein'
                 ' damerau-levenshtein optimal string alignment distance',
     'packages': ['stringdist', 'stringdist/pystringdist'],

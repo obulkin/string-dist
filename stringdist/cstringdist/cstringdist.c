@@ -52,6 +52,10 @@ static struct PyModuleDef cstringdist = {
     "Calculates several different string distance metrics",
     -1,
     methods,
+    NULL,
+    NULL,
+    NULL,
+    NULL
 };
 
 // Module initialization function for the cstringdist module, which is called
